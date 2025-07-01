@@ -262,5 +262,7 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python,windows,macos,linux
 
+# Claude Code local settings (personal permissions)
+.claude/settings.local.json
 
 ./models
