@@ -1,19 +1,10 @@
 {
   "mcpServers": {
     "jupyter": {
-      "command": "docker",
+      "command": "uv",
       "args": [
         "run",
-        "-i",
-        "--rm",
-        "-e",
-        "SERVER_URL",
-        "-e",
-        "TOKEN",
-        "-e",
-        "NOTEBOOK_PATH",
-        "--network=host",
-        "datalayer/jupyter-mcp-server:latest"
+        "jupyter-mcp-server"
       ],
       "env": {
         "SERVER_URL": "http://localhost:8888",
