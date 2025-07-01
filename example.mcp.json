@@ -18,7 +18,7 @@
       "env": {
         "SERVER_URL": "http://localhost:8888",
         "TOKEN": "MY_TOKEN",
-        "NOTEBOOK_PATH": "notebook.ipynb"
+        "NOTEBOOK_PATH": "notebooks/main.ipynb"
       }
     },
     "gemini-cli": {
